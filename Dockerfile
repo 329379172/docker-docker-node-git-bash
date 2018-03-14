@@ -5,5 +5,6 @@ RUN apk add --update \
 	bash \
 	nodejs \
 	&& rm -rf /var/cache/apk/*
+RUN npm install -g yarn
 
 CMD ["bash"]
